@@ -1,0 +1,62 @@
+.connect-container {
+    background-color: #333; /* Dark background color */
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff; /* Default text color */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+   
+  }
+  
+  .header-text {
+    color: #ffd700; /* Yellow color for header */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .icon-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px; /* Icon size */
+    color: #ffd700; /* Yellow color for icons */
+  }
+  
+  .link-text {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .sky-text {
+    color: #fff; /* White color for "Sky" */
+  }
+  
+  .serve-text {
+    color: #ffd700; /* Yellow color for "Serve" */
+  }
+  

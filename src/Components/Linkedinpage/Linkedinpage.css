@@ -1,0 +1,122 @@
+/* Linkedinpage.css */
+
+.linkedinContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 40px;
+    color: #fff;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.linkedinBirdImage {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.linkedinBirdImage img {
+    width: 300px;
+    height: auto;
+    max-width: 100%; /* Ensures responsiveness */
+}
+
+.linkedinContentWrapper {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-left: 40px;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+.linkedinContent {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.linkedinHeading {
+    color: #FFD700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.linkedinDescription {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 40px;
+}
+
+.linkedinHighlight {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.linkedinImage {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.linkedinImage img {
+    max-width: 500px;
+    width: 100%; /* Responsive sizing */
+    height: auto;
+    border-radius: 8px;
+    margin-left: -40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Responsive Layout for Screens Smaller than 768px */
+@media (max-width: 768px) {
+    .linkedinContainer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .linkedinContentWrapper {
+        flex-direction: column;
+        margin: 0; /* Reset margin for better centering */
+    }
+
+    .linkedinContent {
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+
+    .linkedinImage {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .linkedinHeading {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    .linkedinDescription {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+
+    .linkedinBirdImage {
+        top: 10px;
+        right: 10px;
+        position: static; /* Allows it to flow with the content */
+        margin-bottom: 20px;
+    }
+
+    .linkedinBirdImage img {
+        width: 200px;
+    }
+}

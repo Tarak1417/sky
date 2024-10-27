@@ -1,0 +1,99 @@
+/* About.css */
+
+.aboutContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e; 
+    padding: 40px;
+    color: #fff;
+    margin: 0 auto;
+    flex-wrap: wrap; /* To allow wrapping on smaller screens */
+}
+
+.birdImage {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.birdImage img {
+    width: 300px; 
+    height: auto;
+    max-width: 100%; /* Makes it responsive */
+}
+
+.aboutContent {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.aboutHeading {
+    color: #FFD700; 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.aboutDescription {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 40px;
+}
+
+.highlight {
+    color: #FFD700; 
+    font-weight: bold;
+}
+
+.aboutImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aboutImage img {
+    max-width: 500px;
+    width: 100%; /* Ensures responsiveness */
+    height: auto;
+    border-radius: 8px; 
+    margin-left: -40px;
+}
+
+.satilite {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .aboutContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutHeading,
+    .aboutDescription {
+        margin-left: 0;
+    }
+
+    .satilite {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .birdImage {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .aboutImage img {
+        margin-left: 0;
+    }
+}

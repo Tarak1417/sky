@@ -1,0 +1,62 @@
+/* Vision.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 40px;
+    color: #fff;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Enables responsive wrapping */
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    max-width: 100%; /* Ensures responsiveness */
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #FFD700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Highlighted text */
+.text strong {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
+.nmae{
+    color: #FFD700;
+}

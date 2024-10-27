@@ -1,0 +1,64 @@
+.missionsContainer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+   
+    margin: auto;
+    text-align: center;
+  }
+  
+  .missionsTitle {
+    font-size: 28px;
+    color: #ffc107;
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    font-style: italic;
+    color: #ffc107;
+  }
+  
+  .missionCards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .missionCard {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+  }
+  
+  .missionName {
+    font-size: 20px;
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .gsd {
+    font-weight: bold;
+    color: #ffc107;
+  }
+  
+  .split {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .smallText {
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .footerNote {
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  

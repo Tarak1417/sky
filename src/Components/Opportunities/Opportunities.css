@@ -1,0 +1,103 @@
+.maincontainer {
+    background-color: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .rightcontainer {
+    display: flex;
+   
+  }
+  .heding {
+    color: yellow;
+  }
+  
+  .container {
+    position: relative;
+    padding: 40px;
+    height: auto;
+  }
+  
+  .box-1 {
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    width: 220px;
+    margin-top: 80px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .box-2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: yellow;
+    border: 3px solid yellow;
+    padding: 10px;
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    z-index: 1;
+    border-radius: 8px;
+  }
+  
+  .leftcontainer {
+    background-color: grey;
+    height: 100vh;
+    width: 50%;
+  
+  }
+  
+  .birdslogo {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+  }
+  
+  img {
+    height: auto;
+    width: 100px; 
+  }
+
+  .Container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: -550px;
+    margin-top: -150px;; 
+  }
+  
+  
+  .rectaange2 {
+    background-color:  rgba(19, 19, 19, 0.8) ;
+    border: 3px solid orange;
+    position: relative;
+  
+    height: 80px;
+    width: 300px;
+
+   
+  }
+  
+  .rectaange1 {
+    background-color: orange;
+    position:absolute;
+    height: auto;
+    width: 250px;
+    margin-top: 20px; 
+    z-index: 1;
+    top:260px;
+    left: 170px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+
+  
+  
